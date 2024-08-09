@@ -162,4 +162,6 @@ git push da erro
 
     PR is a request to have your code pulled at another branch
         delete your branch
-        
+apos aprovado o PR 
+git checkout main
+git pull
