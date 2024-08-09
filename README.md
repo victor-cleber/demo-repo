@@ -165,3 +165,32 @@ git push da erro
 apos aprovado o PR 
 git checkout main
 git pull
+
+nao devemos dar push numa branch ja mergeada para a main
+git branch -d deleta a bra
+git branch -D feature-readme-instructions
+
+
+$ git branch -d -r origin/todo origin/html origin/man   (1)
+$ git branch -D test                                    (2)
+
+1. Delete the remote-tracking branches "todo", "html" and "man". The next fetch or pull will create them again unless you configure them not
+           to. See git-fetch(1).
+           2. Delete the "test" branch even if the "master" branch (or whichever branch is currently checked out) does not have all commits from the
+           test branch.
+
+
+## Conflicts
+
+git checkout -b quick-test
+
+index.html 
+git add index.html
+
+colocar um codigo html
+<div>Hello</div>
+<p>World</p>
+
+git diff mostra tudo q esta diferente desde o ultimo codigo
+
+
