@@ -211,5 +211,19 @@ git commit -am "Add and commit modified files only - for new create files you ha
         git checkout quick_test_branch
         git diff main mostra tudo q esta diferente entre as branchs
 
+git merge master esta fazendo merge na branch atual com todas as alteracoes da main
+deu conflito
 
-        mudar para 
+
+
+<<<<<<<<<<<HEAD (CODE FROM CURENT BRANCH)
+<p>Hello</p>
+=================
+<p>World</p>
+>>>>>>>>>>>>>>.master (CODE FROM OTHER BRANCH)
+
+
+apenas apage o q vc nao quer  salve o arquivo
+
+git status
+git commit -am "updated with master"
