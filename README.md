@@ -85,3 +85,57 @@ key     -make it secure with you
 cat key.pub
 
 git push "location of gitrepository" "branch"
+
+
+#create a new folder out of this repo
+create a file
+git add da erro
+
+
+create a new repo on github
+
+add the remote on local folder 
+
+git remote add origin git@github.com:victor-cleber/demo2.git
+
+git remote -v vai mostrar qq git repo conectado neste repositorio local
+
+Para configurar o upstream automatico entao nao preciso digitar origin master toda x q fizer um push
+git push -u origin main
+git push --set-upstream origin master
+
+
+## GH workflow
+Write a code 
+commit changes
+
+need a revewi
+Pull request
+
+
+## local git workflow
+write code
+stage changes   >> git add 
+commit changes  >> git commit
+push changes    >> git push
+code review >> make a pull request
+
+
+
+## git branching
+
+bug branch                         ========= Fix =======
+                                  |                     | 
+master branch                     |                     |  
+        commit#1=============commit#2=================commit#3=============commit#4===Merge===
+                                |                                                       |
+                feature branch  |commit#1==================commit#2=====================
+
+
+
+git branch
+git checkout -b feature-readme-instructions
+git branch
+git checkout main #switch betwwen branchs
+branch
+git checkout  feature-readme-instructions
