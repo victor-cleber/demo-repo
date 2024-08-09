@@ -83,3 +83,5 @@ key     -make it secure with you
 
 
 cat key.pub
+
+git push "location of gitrepository" "branch"
