@@ -140,4 +140,26 @@ git checkout main #switch betwwen branchs
 branch
 git checkout  feature-readme-instructions
 
-##Local development text for a new branch
+a nova branch estava atrasada em relacao a main 
+git rebase main ficou igual
+
+alterar texto na nova branch
+git add
+git commit
+git checkout main
+
+a main esta atrasada em relacao a nova branch
+antes de dar o merge vamos ver a diferenca no codigo
+
+git diff nome_da_outra_branch
+git diff feature-readme-instructions
+
+git checkout 
+git status
+git push da erro
+     git push --set-upstream origin feature-readme-instructions
+     git push -u origin feature-readme-instructions
+
+    PR is a request to have your code pulled at another branch
+        delete your branch
+        
