@@ -230,4 +230,24 @@ git commit -am "updated with master"
 
 
 ## undoing in git
+stages = apos git add add
+mudei so para desfazer
+ git reset sem nada
+ ou git reset README.md
 
+ commited = apos commit
+
+ mudar arquivo
+ git commit -am "commited"
+ git status mostra q nao tem nd para comitar agora
+
+ git reset HEAD~1
+ HEAD means the point of the last commit 
+ ~1 last commit menos 1
+
+ git log mostra os ultimos commits
+
+ HEAD aponta para 20:52
+ anterior aponta para 20:48
+
+apos git reset HEAD~1 o HEAD aponta para 20:48
