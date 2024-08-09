@@ -194,3 +194,22 @@ colocar um codigo html
 git diff mostra tudo q esta diferente desde o ultimo codigo
 
 
+
+
+
+git commit -am "Add and commit modified files only - for new create files you have to stage it first: git add <file_name>"
+
+    vai para a <main>
+        modifica o html na mesma linha
+
+    ao tentar mudar de branch 
+        git checkout quick_test_branch da error: Your local changes to the following files would be overwritten by checkout:
+
+        eu poderia stash minhas alteracoes somehwer e recuparar depoois (temporary holding place)
+
+        git commit -am "mensagem"
+        git checkout quick_test_branch
+        git diff main mostra tudo q esta diferente entre as branchs
+
+
+        mudar para 
