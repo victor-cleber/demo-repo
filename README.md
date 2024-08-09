@@ -251,3 +251,9 @@ mudei so para desfazer
  anterior aponta para 20:48
 
 apos git reset HEAD~1 o HEAD aponta para 20:48
+
+ou se voce quiser voltar muitos comits ants basta usar o id do commit q vc quer voltar
+
+git reset 8429114650a8170023b658d0cc0c8816f34cde27 este comand so unstage - vc ainda consegue ver os arquivos e as alteracoes = nao perdi nd
+
+git reset --hard  8429114650a8170023b658d0cc0c8816f34cde27 os arquivos e alteracoes sao removidos - perdi oq alterei (CUIDADO)
