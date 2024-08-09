@@ -227,3 +227,7 @@ apenas apage o q vc nao quer  salve o arquivo
 
 git status
 git commit -am "updated with master"
+
+
+## undoing in git
+
